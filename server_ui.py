@@ -11,7 +11,7 @@ import tkinter as tk
 
 def get_prime_and_base():
     while True:
-        n = 20
+        n = 70
         prime_candidate = getLowLevelPrime(n)
         if not isMillerRabinPassed(prime_candidate):
             continue
@@ -109,7 +109,7 @@ def server():
 
     # Initialize GUI
     root = tk.Tk()
-    root.title("Chat Application")
+    root.title("Server Chat")
 
     text_frame = tk.Frame(root, bg="#f0f0f0")
     text_frame.pack(fill="both", expand=True)

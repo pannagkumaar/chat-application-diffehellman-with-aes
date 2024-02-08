@@ -88,7 +88,7 @@ def client():
 
     # Initialize GUI
     root = tk.Tk()
-    root.title("Chat Application")
+    root.title("Client Chat")
 
     text_frame = tk.Frame(root, bg="#f0f0f0")
     text_frame.pack(fill="both", expand=True)
